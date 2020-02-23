@@ -1,0 +1,1532 @@
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    logger.debug("Hellow I am in method1:"+t)
+TypeError: can only concatenate str (not "TableModel") to str
+Not Found: /favicon.ico
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    logger.debug("Hellow I am in method1:"+t)
+TypeError: can only concatenate str (not "TableModel") to str
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: methodOneView() missing 1 required positional argument: 'request'
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: methodOneView() missing 1 required positional argument: 'request'
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Not Found: /app1/method1/
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: methodOneView() missing 1 required positional argument: 'request'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: methodOneView() missing 1 required positional argument: 'request'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: methodOneView() missing 1 required positional argument: 'request'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 14, in methodOneView
+    return render(request,'template1.html',{"title":title,"metaDesc":metaDesc,"url":url})
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 14, in methodOneView
+    return render(request,'template1.html',{"title":title,"metaDesc":metaDesc,"url":url})
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 836, in _save_table
+    pk_val = self._get_pk_val(meta)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 569, in _get_pk_val
+    return getattr(self, meta.pk.attname)
+AttributeError: 'NoneType' object has no attribute 'attname'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 836, in _save_table
+    pk_val = self._get_pk_val(meta)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 569, in _get_pk_val
+    return getattr(self, meta.pk.attname)
+AttributeError: 'NoneType' object has no attribute 'attname'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 836, in _save_table
+    pk_val = self._get_pk_val(meta)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 569, in _get_pk_val
+    return getattr(self, meta.pk.attname)
+AttributeError: 'NoneType' object has no attribute 'attname'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 836, in _save_table
+    pk_val = self._get_pk_val(meta)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 569, in _get_pk_val
+    return getattr(self, meta.pk.attname)
+AttributeError: 'NoneType' object has no attribute 'attname'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 836, in _save_table
+    pk_val = self._get_pk_val(meta)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 569, in _get_pk_val
+    return getattr(self, meta.pk.attname)
+AttributeError: 'NoneType' object has no attribute 'attname'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020/02/22",name="Table1")
+AttributeError: type object 'TableModel' has no attribute 'objects'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020/02/22",name="Table1")
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 179, in __get__
+    raise AttributeError("Manager isn't available; %s is abstract" % (
+AttributeError: Manager isn't available; TableModel is abstract
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020/02/22",name="Table1")
+AttributeError: type object 'TableModel' has no attribute 'objects'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "demo_table" does not exist
+LINE 1: INSERT INTO "demo_table" ("id", "date", "name") VALUES (NULL...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020/02/22",name="Table1")
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "demo_table" does not exist
+LINE 1: INSERT INTO "demo_table" ("id", "date", "name") VALUES (NULL...
+                    ^
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "2020/02/22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020/02/2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020/02/22",name="Table1")
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "2020/02/22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020/02/2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "2020-02-22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020-02-2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020-02-22",name="Table1")
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "2020-02-22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020-02-2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "2020"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,date="2020",name="Table1")
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "2020"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "2020-02-22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020-02-2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(date='2020-02-22',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "2020-02-22"
+LINE 1: ..."demo_table" ("id", "date", "name") VALUES (NULL, '2020-02-2...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "2020-02-22"
+LINE 1: INSERT INTO "demo_table" ("date", "name") VALUES ('2020-02-2...
+                                                          ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(date='2020-02-22',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "2020-02-22"
+LINE 1: INSERT INTO "demo_table" ("date", "name") VALUES ('2020-02-2...
+                                                          ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "demo"
+LINE 1: INSERT INTO "demo_table" ("date", "name") VALUES ('demo', 'T...
+                                                          ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(date='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "demo"
+LINE 1: INSERT INTO "demo_table" ("date", "name") VALUES ('demo', 'T...
+                                                          ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.InvalidTextRepresentation: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: malformed array literal: "demo"
+LINE 1: ...RT INTO "demo_table" ("demodate", "name") VALUES ('demo', 'T...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, demo, Table1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, demo, Table1).
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, demo, Table1).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, demo, Table1).
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save(commit=False)
+TypeError: save() got an unexpected keyword argument 'commit'
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=1,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = integer
+LINE 1: ...ate" = 'demo', "name" = 'Table1' WHERE "demo_table"."id" = 2
+                                                                    ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t.save()
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 850, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 900, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 760, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1429, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: operator does not exist: character varying = integer
+LINE 1: ...ate" = 'demo', "name" = 'Table1' WHERE "demo_table"."id" = 2
+                                                                    ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=2,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (demo, Table1, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (demo, Table1, null).
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    t=TableModel.objects.create(id=2,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 10, in methodOneView
+    t=TableModel.objects.create(id=count+1,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 12, in methodOneView
+    t=TableModel.objects.create(id=count,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 12, in methodOneView
+    t=TableModel.objects.create(id= ++count,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    rec = TableModel.objects.all()[-1]
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 285, in __getitem__
+    assert ((not isinstance(k, slice) and (k >= 0)) or
+AssertionError: Negative indexing is not supported.
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    rec = TableModel.objects.all()[:-1]
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 285, in __getitem__
+    assert ((not isinstance(k, slice) and (k >= 0)) or
+AssertionError: Negative indexing is not supported.
+Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 9, in methodOneView
+    rec = TableModel.objects.order_by(id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1074, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\query.py", line 1804, in add_ordering
+    if not hasattr(item, 'resolve_expression') and not ORDER_PATTERN.match(item):
+TypeError: expected string or bytes-like object
+Not Found: /static/lib/css/home.css
+Not Found: /static/lib/css/mathquill.css
+Not Found: /static/lib/css/keys.css
+Not Found: /static/lib/css/projectStyles.css
+Not Found: /static/lib/js/mathquill.js
+Not Found: /static/lib/js/inputjs.js
+Not Found: /static/lib/css/mathquill.css
+Not Found: /static/lib/css/home.css
+Not Found: /static/lib/css/keys.css
+Not Found: /static/lib/css/projectStyles.css
+Not Found: /static/lib/js/mathquill.js
+Not Found: /static/lib/js/inputjs.js
+Not Found: /static/lib/css/home.css
+Not Found: /static/lib/css/mathquill.css
+Not Found: /static/lib/css/keys.css
+Not Found: /static/lib/css/projectStyles.css
+Not Found: /static/lib/js/mathquill.js
+Not Found: /static/lib/js/inputjs.js
+Not Found: /static/lib/css/home.css
+Not Found: /static/lib/js/mathquill.js
+Not Found: /static/lib/js/inputjs.js
+ERROR 2020-02-22 17:45:57,868 log 7528 9228 Internal Server Error: /app1/method1/
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(16) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DemoPrjoect\myproject\app1\views\AppOneViews.py", line 14, in methodOneView
+    t=TableModel.objects.create(id=count,demodate='demo',name='Table1')
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 777, in save_base
+    updated = self._save_table(
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 907, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\valip\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "demo_table_pkey"
+DETAIL:  Key (id)=(16) already exists.
+
