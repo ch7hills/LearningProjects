@@ -1,0 +1,118 @@
+{% extends "header.html" %}
+{% block content %}
+{% load static %}
+<!-- breadcrumbs -->
+	<div class="agileits_breadcrumbs">
+		<div class="container">
+			<ul>
+				<li><a href="/">Home</a><span> << </span></li>
+				<li>About Us</li>
+			</ul>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+<!-- about -->
+	<div class="about">
+		<div class="container">
+			<h3 class="w3_agile_header">Welcome to <span>ALWA WALKING</span></h3>
+			<p class="w3_about_para">To get the health benefits, try to walk for at least 30 minutes as briskly as you can on most days of the week. 'Brisk' means that you can still talk but not sing, and you may be puffing slightly. Moderate activities such as walking pose little health risk but, if you have a medical condition, check with your doctor before starting any new exercise program of physical activity. </p>
+			<div class="w3ls_banner_bottom_grids">
+				<div class="col-md-3 w3ls_about_guage">
+					<h4>Trees in ground</h4>
+					<canvas id="gauge1" width="200" height="100"></canvas>
+				</div>
+				<div class="col-md-3 w3ls_about_guage">
+					<h4>Helathy air</h4>
+					<canvas id="gauge2" width="200" height="100"></canvas>
+				</div>
+				<div class="col-md-3 w3ls_about_guage">
+					<h4>Conducted Events</h4>
+					<canvas id="gauge3" width="200" height="100"></canvas>
+				</div>
+				<div class="col-md-3 w3ls_about_guage">
+					<h4>Support</h4>
+					<canvas id="gauge4" width="200" height="100"></canvas>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- team -->
+	<div class="team">
+		<div class="container">
+			<h3 class="w3_agile_header w3_agile_header1">Our <span>Trainees</span></h3>
+			<p class="agile_para agile_para1">Integer laoreet nunc nisl, quis viverra lectus interdum sed.</p>
+			<div class="w3ls_banner_bottom_grids">
+				<div class="col-md-3 w3layouts_team_grid">
+					<!-- <img src="images/3.jpg" alt=" " class="img-responsive" /> -->
+					<img src="{%  static 'images/3.jpg' %}" alt=" " class="img-responsive" />
+					<h4>Michael Smith</h4>
+					<p>Trainer</p>
+					<div class="w3_agile_social_icons">
+						<ul>
+							<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
+							<li><a href="#" class="icon icon-cube agile_rss"></a></li>
+							<li><a href="#" class="icon icon-cube agile_instagram"></a></li>
+							<li><a href="#" class="icon icon-cube agile_t"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_team_grid">
+					<!-- <img src="images/4.jpg" alt=" " class="img-responsive" /> -->
+					<img src="{%  static 'images/4.jpg' %}" alt=" " class="img-responsive" />
+					<h4>Fedrick Rich</h4>
+					<p>Trainer</p>
+					<div class="w3_agile_social_icons">
+						<ul>
+							<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
+							<li><a href="#" class="icon icon-cube agile_rss"></a></li>
+							<li><a href="#" class="icon icon-cube agile_instagram"></a></li>
+							<li><a href="#" class="icon icon-cube agile_t"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_team_grid">
+					<!-- <img src="images/5.jpg" alt=" " class="img-responsive" /> -->
+					<img src="{%  static 'images/5.jpg' %}" alt=" " class="img-responsive" />
+					<h4>John Paul</h4>
+					<p>Trainer</p>
+					<div class="w3_agile_social_icons">
+						<ul>
+							<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
+							<li><a href="#" class="icon icon-cube agile_rss"></a></li>
+							<li><a href="#" class="icon icon-cube agile_instagram"></a></li>
+							<li><a href="#" class="icon icon-cube agile_t"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_team_grid">
+					<!-- <img src="images/6.jpg" alt=" " class="img-responsive" /> -->
+					<img src="{%  static 'images/6.jpg' %}" alt=" " class="img-responsive" />
+					<h4>Williamson Carl</h4>
+					<p>Trainer</p>
+					<div class="w3_agile_social_icons">
+						<ul>
+							<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
+							<li><a href="#" class="icon icon-cube agile_rss"></a></li>
+							<li><a href="#" class="icon icon-cube agile_instagram"></a></li>
+							<li><a href="#" class="icon icon-cube agile_t"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //team -->
+<script type="text/javascript" src="{%static "js/jquery.gauge.js" %}"?{% now "u" %}></script>
+<!-- <script src="js/jquery.gauge.js"></script> -->
+<script>
+	$(document).ready(function (){
+		$("#gauge1").gauge(100,{color: "#ef3708",unit: " %",type: "halfcircle"});
+		$("#gauge2").gauge(100, {color: "#5f48f9", unit: " %",type: "halfcircle"});
+		$("#gauge3").gauge(100, {color: "#10b55d",unit: " %",type: "halfcircle"});
+		$("#gauge4").gauge(100, {color: "#20c4da",unit: " %",type: "halfcircle"});
+	});
+</script>
+{% endblock %}

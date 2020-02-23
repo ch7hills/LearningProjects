@@ -1,0 +1,153 @@
+{% extends "mainHeader.html" %}
+{% block content %}
+{% load static %}
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Content Row -->
+                    <div class="row">
+                        <!-- Content Column -->
+
+                        <div class="col-lg-12 mb-4">
+					
+                            <!-- Approach -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Registration</h6>
+                                </div>
+                                <div class="card-body">
+                                    <form action="javascript:void(0)" method="POST" enctype="multipart/form-data" id="frmregister">
+                                    {%csrf_token%}
+                                        <div class="row">
+
+                                            <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+                                                <div class="p-12">
+                                                    <div class="user">
+                                                        <div class="form-group row">
+                                                            
+                                                            <input type="text" name="id"  id="txtId" style="display:none">
+           
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <input type="text" name="uid" class="form-control" id="txtUid" placeholder="ID Number">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" name="full_name" class="form-control" id="txtName" placeholder="Full Name">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <select class="form-control" name="relation_type" id="ddlRelation">
+                                                                    <option value="0">Select RelationType</option>
+                                                                    <option value="1">S/O</option>
+                                                                    <option value="2">W/O</option>
+                                                                    <option value="3">D/O</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" name="relation_name" class="form-control" id="txtParent" placeholder="Parent Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <select class="form-control" name="gender" id="ddlGender">
+                                                                    <option value="0">Select Gender</option>
+                                                                    <option value="1">Male</option>
+                                                                    <option value="2">Female</option>
+                                                                    <option value="3">Others</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <select class="form-control" name="martial_status" id="ddlMartial">
+                                                                    <option value="0">Select MartialStatus</option>
+                                                                    <option value="1">Married</option>
+                                                                    <option value="2">Single</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <input type="date" class="form-control" name="dob" id="txtDob" title="Select DOB">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <select class="form-control" name="blood_group" id="bloodGroup">
+                                                                    <option value="0">Select BloodGroup</option>
+                                                                    <option value="1">A+ve</option>
+                                                                    <option value="2">B+Ve</option>
+                                                                    <option value="3">O+Ve</option>
+                                                                    <option value="4">A-ve</option>
+                                                                    <option value="5">B-Ve</option>
+                                                                    <option value="6">O-Ve</option>
+                                                                    <option value="7">AB+Ve</option>
+                                                                    <option value="8">AB-Ve</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <input type="text" name="mobile" class="form-control" id="txtMobile1" placeholder="Enter Mobile Number">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" name="alternate_mobile" class="form-control" id="txtMobile2" placeholder="Alternate Mobile Number">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <input type="text" name="teliphone_number" class="form-control" id="txtContact" placeholder="Enter Contact Number">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="email" name="email" class="form-control" id="txtEmail" placeholder="Enter Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                <input type="text" name="occupation" class="form-control" id="txtoccupation" placeholder="Enter Occupation">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <input type="text" name="introducer" class="form-control" id="txtIntroName" placeholder="Enter Introducer Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12 mb-12">
+                                                                <textarea rows="2" name="address" class="form-control" id="txtAddress" placeholder="Enter Address"></textarea>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                                
+                                                                <select class="form-control" name="application_type" id="applicationType">
+                                                                    <option value="0">Select ApplicationType</option>
+                                                                    <option value="1">Men-1500</option>
+                                                                    <option value="2">Women-1000</option>
+                                                                </select>
+                                                            </div>
+                                                      </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+											<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+												<div id="divErrorMsg" style="display:none"></div>
+												<img src="{%  static 'images/NoImage.png' %}" alt=" " class="img img-thumbnail col-sm-4 col-md-12" id="uploadimg_id"/>
+												<button class="btn btn-primary" style="margin-top:5px;" id="profile_img">Upload Photo</button>
+												<br />
+											</div>
+                                            <hr>
+                                            <center>
+                                                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                                                  	<input type="text" name="pic_name" style="display:none" id="pic_name" value="">
+                                                    <input type="submit" value="Register" class="btn btn-primary btn-user btn-block" id="register" />
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </form>
+                                     <form  id="frmUploadFile" method="post" enctype="multipart/form-data" action='/register/addattachment' style="display:none">
+										{%csrf_token%}
+										<input id="id_image" type="file" class="" name="uploadFile" style="display:none" >
+				                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ {% endblock %}

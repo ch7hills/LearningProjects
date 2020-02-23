@@ -1,0 +1,133 @@
+{% extends "header.html" %}
+{% block content %}
+{% load static %}
+<!-- <script type="text/javascript" src="{%static "js/waypoints.min.js" %}"?{% now "u" %}></script>
+	<script type="text/javascript" src="{%static "js/bootstrap.js" %}"?{% now "u" %}></script>
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 2000
+			});
+		});
+	</script> -->
+<!-- breadcrumbs -->
+	<div class="agileits_breadcrumbs">
+		<div class="container">
+			<ul>
+				<li><a href="/">Home</a><span> << </span></li>
+				<li>Events</li>
+			</ul>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+<!-- services -->
+	<div class="about">
+		<div class="container">
+			<div class="w3layouts_services_grids">
+				<div class="col-md-4 w3layouts_services_grid">
+					<div class="w3_agile_services_grid1">
+						<!-- <img src="images/7.jpg" alt=" " class="img-responsive" /> -->
+						<img src="{%  static 'images/7.jpg' %}" alt=" " class="img-responsive" />
+						<div class="w3_agile_services_grid1_pos">
+						</div>
+					</div>
+					<h4>Marathon-2018</h4>
+					<p>Marthon Conducted in 2018</p>
+					<div class="agileits_w3layouts_more menu__item agile_more">
+						<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 w3layouts_services_grid">
+					<div class="w3_agile_services_grid1">
+						<!-- <img src="images/8.jpg" alt=" " class="img-responsive" /> -->
+						<img src="{%  static 'images/8.jpg' %}" alt=" " class="img-responsive" />
+						<div class="w3_agile_services_grid1_pos">
+						</div>
+					</div>
+					<h4>Marathon-2019</h4>
+					<p>Marthon Conducted in 2019</p>
+					<div class="agileits_w3layouts_more menu__item agile_more">
+						<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal1">Learn More</a>
+					</div>
+				</div>
+				<div class="col-md-4 w3layouts_services_grid">
+					<div class="w3_agileits_working_hours">
+						<h5>Working Hours</h5>
+						<ul>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Monday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Tuesday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Wednesday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Thursday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Friday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Saturday - 4:30 AM to 9:00 PM</li>
+							<li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Sunday -  4:30 AM to 9:00 PM</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //services -->
+<!-- services-bottom -->
+	
+<!-- //services-bottom -->
+<!-- Stats -->
+<!-- //Stats -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Marathon-2018
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-6 w3_modal_body_left">
+							<img src="images/1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-6 w3_modal_body_right">
+							<h4>Marathon-2018</h4>
+							<p>Walking a marathon is both easier and harder than running a marathon, with completion being the most important goal. The amount of distance training per week is somewhat less than for running and the intensity level is quite a bit less. But, as a marathon walker, you will be on your feet and moving for a much longer time than the typical marathon runner. The bottom line is that walking marathon training is necessary and needs to fulfill the basic and specific needs for the marathon distance.
+								Fusce in ex eget ligula tempor placerat. Aliquam laoreet mi id felis commodo 
+								interdum. Integer sollicitudin risus sed risus rutrum 
+								elementum ac ac purus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+    <div class="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Marathon-2019
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <section>
+                    <div class="modal-body">
+                        <div class="col-md-6 w3_modal_body_left">
+                            <img src="images/1.jpg" alt=" " class="img-responsive" />
+                        </div>
+                        <div class="col-md-6 w3_modal_body_right">
+                            <h4>Marathon-2018</h4>
+                            <p>
+                                Walking a marathon is both easier and harder than running a marathon, with completion being the most important goal. The amount of distance training per week is somewhat less than for running and the intensity level is quite a bit less. But, as a marathon walker, you will be on your feet and moving for a much longer time than the typical marathon runner. The bottom line is that walking marathon training is necessary and needs to fulfill the basic and specific needs for the marathon distance.
+                                Fusce in ex eget ligula tempor placerat. Aliquam laoreet mi id felis commodo
+                                interdum. Integer sollicitudin risus sed risus rutrum
+                                elementum ac ac purus.
+                            </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+<!-- //bootstrap-pop-up -->
+<!-- choose-us -->
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "header.html" %}
+{% block content %}
+{% load static %}
+
+<!-- breadcrumbs -->
+	<div class="agileits_breadcrumbs">
+		<div class="container">
+			<ul>
+				<li><a href="/">Home</a><span> << </span></li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+<!-- contact -->
+	<div class="about">
+		<div class="w3_agileits_contact_grids">
+			<div class="col-md-6 w3_agileits_contact_grid_left">
+				<div class="agile_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.341407084033!2d80.6589898148643!3d16.508853038610667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c46209a57aca783!2sLoyola+Football+Ground!5e0!3m2!1sen!2sin!4v1553932563678!5m2!1sen!2sin" style="border:0"></iframe>
+				</div>
+				<div class="agileits_w3layouts_map_pos">
+					<div class="agileits_w3layouts_map_pos1">
+						<h3>Contact Info</h3>
+						<p>Andhra loyala grounds,Vijayawada</p>
+						<ul class="wthree_contact_info_address">
+							<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+(0123) 232 232</li>
+						</ul>
+						<div class="w3_agile_social_icons w3_agile_social_icons_contact">
+							<ul>
+								<li><a href="#" class="icon icon-cube agile_facebook"></a></li>
+								<li><a href="#" class="icon icon-cube agile_rss"></a></li>
+								<li><a href="#" class="icon icon-cube agile_t"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 w3_agileits_contact_grid_right">
+				<h3 class="w3_agile_header">Leave a<span> Message</span></h3>
+				<p class="agile_para">Enquiry us</p>
+				<form>
+					<span class="input input--ichiro">
+						<input class="input__field input__field--ichiro" type="text" id="input-25" name="Name" placeholder=" " required="" />
+						<label class="input__label input__label--ichiro" for="input-25">
+							<span class="input__label-content input__label-content--ichiro">Your Name</span>
+						</label>
+					</span>
+					<span class="input input--ichiro">
+						<input class="input__field input__field--ichiro" type="email" id="input-26" name="Email" placeholder=" " required="" />
+						<label class="input__label input__label--ichiro" for="input-26">
+							<span class="input__label-content input__label-content--ichiro">Your Email</span>
+						</label>
+					</span>
+					<textarea name="Message" placeholder="Your message here..." required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+{% endblock %}
