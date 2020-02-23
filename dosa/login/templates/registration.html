@@ -1,0 +1,116 @@
+{% extends "global.html" %}
+{% load static %}
+{% block main %}
+<!DOCTYPE html>
+<html>
+<body>
+    <section id="twitter" class="parallax">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="twitter-icon text-center">
+                            <i class="fa fa-edit"></i>
+                            <h4>REGISTRATION FORM</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="validateErrorReg" class="error"></div> -->
+                <div class="row">
+                    <div class="col-md-2">&nbsp;</div>
+                    <form action="javascript:void(0)" method="POST" enctype="multipart/form-data" id="frmregister">{% csrf_token %}
+                    <div class="col-sm-8 reg-form" style="text-align:left;">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <p>Name</p>
+                                    <input type="text" name="Name" class="form-control" id="reg_name" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>Father Name</p>
+                                    <input type="text" name="Father Name" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>Phone No</p>
+                                    <input type="text" name="Phone NO" class="form-control" id="reg_phone" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>E-mail ID</p>
+                                    <input type="email" name="User Name" class="form-control" id="reg_email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>Date of Birth</p>
+                                    <input type="text" name="Date of Birth" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>Permanent Address</p>
+                                    <textarea class="form-control" style="height:50px;" name="Address"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>Year of Joining (Ex:1972)</p>
+                                    <input type="text" name="Year of Joining" class="form-control" id="date_joining" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>The Professor/Lecturer U Liked Most</p>
+                                    <input type="text" name="The Professor" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12" style="text-align:left">
+                                <div class="form-group">
+                                    <p>How Frequently would you like us to have this 'GET TOGETHER'</p>
+                                    <span><input type="radio" name = "frequency_get_together" value="1"/><span>Once a Year</span></span>
+                                    <span><input type="radio" name = "frequency_get_together" value="2"/><span>Once in 2 Years</span></span>
+                                    <span><input type="radio" name = "frequency_get_together" value="Other"/><span>Other</span></span>
+                                    <input type="text" name="Others" class="form-control">
+                                    <input type="text" name="pic_name" style="display:none" id="pic_name" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <button type="button" class="btn-submit" id="register">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                <div class="col-md-2 uploadimg-position">
+                    <img src="{% static "images/team/2.jpg" %}" class="uploadimg" id="uploadimg_id" />
+                    <div id="divErrorMsg" style="display:none"></div>
+                    <form  id="frmUploadFile" method="post" enctype="multipart/form-data" action='/addattachment' style="display:none">
+						{%csrf_token%}
+						<input id="id_image" type="file" class="" name="uploadFile" style="display:none" >
+                    </form>
+                    <button class="btn btn-primary" style="margin-top:5px;" id="profile_img">Upload Photo</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#application-->
+    {% endblock %}
+</body>
+</html>

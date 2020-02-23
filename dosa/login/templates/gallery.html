@@ -1,0 +1,60 @@
+{% extends "global.html" %}
+{% load static %}
+{% block main %}
+<!DOCTYPE html>
+<html>
+<body>
+{% if request.session.pwd %}
+<div class="col-md-2 uploadimg-position">
+<form  id="frmUploadFile_gallary" method="post" enctype="multipart/form-data" action='/addattachment' style="display:none">
+{%csrf_token%}
+<input id="id_image_gallary" type="file" class="" name="uploadFile" style="display:none" >
+<input id="path_gallery" type="text" value="gallery" name="gallery" style="display:none" >
+</form>
+<button class="btn btn-primary" style="margin-top:5px;" id="profile_img_gallery">Upload Photo</button>
+</div>
+{% endif %}
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                {% for image in images %}
+                <div class="col-sm-3">
+                    <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="{{image}}" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>Time Hours</h3>
+                                        <p>Design, Photography</p>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-expand"><a href="{{image}}" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div id="portfolio-single-wrap">
+            <div id="portfolio-single">
+            </div>
+        </div>
+        <!-- /#portfolio-single-wrap -->
+    </section>
+    <!--/#portfolio-->
+{% endblock %}
+</body>
+</html>

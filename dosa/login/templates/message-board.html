@@ -1,0 +1,139 @@
+{% extends "global.html" %}
+{% load static %}
+{% block main %}
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{%static "datatable_files/jquery.dataTables.min.css?dev=1234" %}">
+<style type="text/css">
+/* tfoot {background-color: #f5f5f5; display: table-header-group; }
+tfoot input {box-sizing: border-box; padding: 3px; width: 100%; }
+.no-sort::after { display: none!important; }
+.no-sort { pointer-events: none!important; cursor: default!important; }
+div.dt-buttons { float: left; position: relative; }
+div.dt-buttons a{ margin-right: 5px; }
+	span.dataTables_processing {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    left: 105% !important;
+    position: absolute !important;
+    top: 5px !important;
+    display: none;
+}
+table.dataTable{
+font-size: 12px !important;
+} 	
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+ padding: 0 0.5em;
+}*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color:##337ab7 !important;
+    border: 1px solid #979797 !important;
+    color: #333 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: 1px solid #ddd !important;
+}
+
+</style>
+<body>
+  <section id="services" style="padding:75px 0px;">
+    <div class="container">
+      <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row" style="margin-bottom:20px;">
+        <form {% if request.session.pwd %} action="/createpost" {% else %} action="javascript:void(0)" id="frmdopost" {% endif %} method="POST">{% csrf_token %}
+        	<input type="text" name="username" value="" class="form-control"  id="user" style="display:none;">
+        	<input type="text" name="mobile" class="form-control" id="mobile"  style="display:none;">
+          <div class="col-sm-11 summary-grid">
+             <textarea class="form-control" name="post" id="post" style="min-height:125px;border:1px solid #e2e2e2;"></textarea>
+          </div>
+          <div class="col-sm-1 summary-grid">
+              <button class="btn btn-submit" {% if request.session.pwd %} type="submit" {% else %} id="dopost"  data-toggle="modal" data-target="#phone" {% endif %}><i class="fa fa-share-square-o" aria-hidden="true"></i> Post</button>
+          </div>
+          <button class="btn btn-submit" id="hidden_dopost" type="submit" style="display:none;><i class="fa fa-share-square-o" aria-hidden="true"></i> Post</button>
+         </form>
+        </div>
+      
+          <div class="row">
+          <table class="table table-borderless table-xs content-group-sm" id="datatable">
+           
+               <thead>
+		        <tr>
+		            <th>Message</th>
+		        </tr>
+		    	</thead>
+		    	<tbody>
+              {% for post in posts %}
+              
+             <tr>
+             <td>
+              	<div class="col-xs-12">
+                  <div class="post-bg">
+                      <span class="usertext">{{post.user_name}}</span> <span class="datetext"><i class="fa fa-calendar"></i> {{post.updated_time}}</span>
+                      <hr />
+                      <p class="post-text" style="margin-bottom:0px;">
+                          {{post.message}}
+                      </p>
+                  </div>
+              </div>
+          </td>
+          </tr>  
+            
+            {% endfor %}
+            
+         </tbody>
+        </table>
+        </div>         
+      </div>
+    </div>
+  </section><!--/#Grid-->
+<script src="{%static 'datatable_files/jquery.dataTables.min.js' %}"></script>
+<script src="{%static 'datatable_files/dataTables.buttons.min.js' %}"></script>
+<script src= "{%static 'datatable_files/jszip.min.js' %}"></script>
+<script src= "{%static 'datatable_files/buttons.html5.min.js' %}"></script>
+<script src= "{%static 'datatable_files/buttons.flash.min.js' %}"></script>
+
+<script src= "{%static 'datatable_files/dataTables.bootstrap.js' %}"></script>
+<script src= "{%static 'datatable_files/dataTables.bootstrap.min.js' %}"></script>
+<script src= "{%static 'datatable_files/dataTables.bootstrapPagination.js' %}"></script>
+<script src= "{%static 'datatable_files/dataTables.bootstrapPagination.min.js' %}"></script>
+<script src= "{%static 'datatable_files/dataTables.select.min.js' %}"></script>
+<script src= "{%static 'datatable_files/buttons.print.min.js' %}"></script>
+<!--  <script src= "{%static 'datatable_files/dataTablesAll.min.js' %}"></script> --> 
+   <script type="text/javascript">
+	var flag=1;
+	$ ( document ).ready(function() {
+		if(flag==1){
+			var dataTableOptions = {
+		 			    paging: true,
+		 			    dom: 'Bfrtip',
+		 			    info: false,
+		 			    processing: true,
+		 			    "pageLength": 15,
+		 			    "bAutoWidth": false,
+		 			    "bSort" : false,
+		 			    buttons: [
+		 			   	     {
+		 			   	        extend: 'excel',
+		 			   	        filename: 'Message Report',
+		 			   	        text: 'Export to Excel <i class="fa fa-upload"></i>',
+		 			   	        extension: '.xlsx',
+		 			   	        exportOptions: {
+		 			   	            modifier: {
+		 			   	                page: 'all',
+		 			   	            },
+		 			   	        },
+		 			   	        className: 'btn btn-success',
+		 			   	        title : 'Message Report',
+		 			   	    }
+		 			   	], 
+		 			}; 
+		 		//alert($('#datatable').html());
+		 		
+		 			var table = $('#datatable').DataTable(dataTableOptions);
+		 			$(".btn-success").hide();
+		}
+		});
+	</script>
+{% endblock %}
+</body>
+</html>

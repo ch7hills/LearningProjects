@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dosa</title>
+	<!--<link rel = "stylesheet" type = "text/css" href = "{%static "css/bootstrap-multiselect.css" %}">-->
+    <link href="{%static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{%static 'css/animate.min.css' %}" rel="stylesheet">
+    <link href="{%static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{%static 'css/lightbox.css' %}" rel="stylesheet">
+    <link href="{%static 'css/main.css' %}" rel="stylesheet">
+    <link id="css-preset" href="{%static 'css/presets/preset1.css' %}" rel="stylesheet">
+    <link href="{%static 'css/responsive.css' %}" rel="stylesheet">
+    <script type="text/javascript" src="{%static "js/jquery.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/bootstrap.min.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/jquery.form.min.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/jquery.countTo.js" %}"></script>
+	<script type="text/javascript" src="{%static "js/jquery.inview.min.js" %}"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+        <style>
+        .post-bg{
+            background:#fafafa;
+            border:1px solid #e2e2e2;
+            border-radius:4px;
+            padding:10px 15px;
+            margin-bottom:5px;
+        }
+        .post-bg .usertext{
+            color:#a2af22;
+            font-size:14px;
+        }
+        .post-bg .datetext{
+            font-size:11px;
+            font-weight:bold;
+            color:#636363;
+            float:right;
+        }
+        .post-bg .post-text{
+            color:#000;
+            font-size:13px;
+        }
+        .post-bg hr{
+            margin-top:5px;
+            margin-bottom:0px;
+            border-bottom:1px solid #fff;
+        }
+	.yearbg{
+		background: #cadb2b;
+    		color: #555;
+    		font-weight: bold;
+	}
+
+    </style>
+</head>
+<!--/head-->
+
+<body>
+    <!--.preloader-->
+    <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+    <!--/.preloader-->
+
+    <header id="home">
+        <!--/#home-slider-->
+        <div class="main-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="padding:0px !important;" href="/">
+                        <h1><img class="img-responsive" src="{%static "images/logo.png" %}" alt="logo"></h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="/load_aboutus/">About Us</a></li>
+                        <li class="scroll"><a href="/load_registration/">REGISTRATION</a></li>
+                        <li class="scroll"><a href="/load_gallery/">Gallery</a></li>
+                        <li class="scroll"><a href="/SendGrid/" target="_blank">Summary Grid</a></li>
+                        <li class="scroll"><a href="/message-board/" target="_blank">Message Board</a></li>
+                        <li class="scroll"><a href="/load_contactus/">Contact</a></li>
+                        <li class="scroll"><a href="/accounts/">Show Accounts</a></li>
+                        {% if request.session.pwd %}
+                        <li class="scroll"><a href="/logout/" data-toggle="modal" data-target="#myModal">LOGOUT</a></li>
+                        {% else %}
+                        <li class="scroll"><a href="#" data-toggle="modal" data-target="#myModal">Admin Login</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/#main-nav-->
+    </header>
+    {% block main %}
+    global page is loaded hear
+	{% endblock %}
+	{%  include 'index.html' %}
+	<script type="text/javascript">
+	var isAdmin="{{request.session.uName}}";
+	</script>
+    <!-- <script type="text/javascript" src="{%static "https://maps.google.com/maps/api/js?sensor=true" %}"></script> -->
+    <script type="text/javascript" src="{%static "js/wow.min.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/mousescroll.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/smoothscroll.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/lightbox.min.js" %}"></script>
+    <script type="text/javascript" src="{%static "js/main.js" %}?{% now "u" %}"></script>
+    <script type="text/javascript" src="{%static "js/login.js" %}?{% now "u" %}"></script>
+    </body>
+    <html>

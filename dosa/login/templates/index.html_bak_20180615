@@ -1,0 +1,207 @@
+{% load static %}
+    <footer id="footer">
+        <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="container text-center">
+                <div class="footer-logo">
+                    <a href="index.html"><img class="img-responsive" src="{%static "images/logo.png" %}" alt="logo"></a>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>&copy; 2017 Dosa</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <!--<p class="pull-right">Crafted by <a href="http://designscrazed.org/">Allie</a></p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" style="width:25%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">LOGIN</h4>
+                </div>
+                <div class="modal-body row">
+                <form action="/login/Login/" method="POST">{% csrf_token %}
+                	<div class="col-xs-12">
+                        <div class="form-group">
+                            <p>User Name</p>
+                            <input type="email" name="username" class="form-control" style="border:1px solid #c7c7c7;">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <p>Password</p>
+                            <input type="password" name="password" class="form-control" style="border:1px solid #c7c7c7;">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 text-center">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit" style="margin-top:10px;">Login</button>
+                        </div>
+                    </div>
+              </form>
+                </div>
+                <div class="modal-footer" style="padding: 0px;background: #b0b0b0;height: 8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="phone" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" style="width:25%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="enterPhoneClose"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">ENTER YOUR PHONE NUMBER FOR OTP VERIFICATION</h4>
+                </div>
+                <div class="modal-body row">
+                <form action="javascript:void(0)" method="POST" id="frmgenerateOTP">{% csrf_token %}
+                	<div class="col-xs-12">
+                        <div class="form-group">
+                            <input type="text" name="phone" class="form-control" style="border:1px solid #c7c7c7;" id="phone1">
+                        </div>
+                    </div>
+                    <input type="text" name="uid" class="form-control" style="display:none;" id="uid">
+                    <input type="text" name="flag" class="form-control" style="display:none;" id="phone_flag">
+    
+                    <div class="col-xs-12 text-center">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit" style="margin-top:10px;" id="generateOTP">Generate OTP</button>
+                        </div>
+                        <div  id="displayOTP" data-toggle="modal" data-target="#otp" ></div>
+                    </div>
+              </form>
+                </div>
+                <div class="modal-footer" style="padding: 0px;background: #b0b0b0;height: 8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="otp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display:none;">
+        <div class="modal-dialog" style="width:25%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="enterOtpClose"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel3">ENTER YOUR OTP FOR VERIFICATION</h4>
+                </div>
+                <div class="modal-body row">
+                <form action="javascript:void(0)" method="POST" id="frmverifyOTP" >{% csrf_token %}
+                	<div class="col-xs-12">
+                        <div class="form-group">
+                            <input type="text" name="otp" class="form-control" style="border:1px solid #c7c7c7;">
+                        </div>
+                        <input type="text" name="otp_phone" class="form-control" id="otp_phone" style="display:none;">
+                    </div>
+                    <input type="text" name="userid" class="form-control" style="display:none;" id="userid">
+                    <input type="text" name="flag" class="form-control" style="display:none;" id="otp_flag">
+                    <div class="col-xs-12 text-center">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit" style="margin-top:10px;" id="verifyOTP">Verify OTP</button>
+                        </div>
+                        <div {% if not flag %} id="displayUser" data-toggle="modal" data-target="#userView1" {% endif %}></div>
+                    </div>
+              </form>
+                </div>
+                <div class="modal-footer" style="padding: 0px;background: #b0b0b0;height: 8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="userView1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display:none;">
+        <div class="modal-dialog" style="width:66%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel4">USER DEATILS</h4>
+                </div>
+                <div class="modal-body row">
+					<img src="{% static "images/team/2.jpg" %}" width="100px;" height="100px;" id="uploadimg_id" />
+					<div id="divErrorMsg" style="display:none"></div>
+		{% if request.session.pwd %}
+                    <form  id="frmUploadFile" method="post" enctype="multipart/form-data" action='/addattachment'>
+						{%csrf_token%}
+						<input id="id_image" type="file" class="" name="uploadFile" style="display:none" >
+                    </form>
+		<button class="btn btn-primary" style="margin-top:5px;" id="profile_img">Upload Photo</button>
+     		{% endif %}
+                    <form action="javascript:void(0)" method="POST" enctype="multipart/form-data" id="frm_edit_register">{% csrf_token %}
+                    <input type="text" name="pic_name" style="display:none" id="pic_name" value="">
+                    <input type="text" name="user_id" style="display:none" id="user_id" value="">
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >NAME:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="user_name"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >FATHER NAME:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="user_fame"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >EMAIL:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="user_email"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >DATE OF BIRTH:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="user_dob"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >YEAR OF JOINED:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="user_doj"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >ADDRESS:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="address"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >MOST LIKED:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="most_liked"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >FREQUENCY OF GET TO GETHER:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="frequency_get_together"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >OTHER FREQUENCY:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="other_frequency"></p></div>
+					</div>
+					<div class="row">
+					  <div class="col-md-6 col-xs-12 col-sm-12" >MOBILE NUMBER:</div>
+					  <div class="col-md-6 col-xs-12 col-sm-12"><p  style="border:2px solid #c7c7c7;" id="phone_number"></p></div>
+					</div>
+					{% if request.session.pwd %}
+					<div class="row">
+                            <div class="col-md-6 col-xs-6 col-sm-6">
+                                <button class="btn btn-primary" style="margin-top:5px;" id="editAccount">SUBMIT</button>
+                            </div>
+                    </div>
+                    {% endif %} 
+					</form>
+                </div>
+                <div class="modal-footer" style="padding: 0px;background: #b0b0b0;height: 8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    <div  id="reg_error" data-toggle="modal" data-target="#validationError"></div>
+        <div class="modal fade" id="validationError" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display:none;">
+        <div class="modal-dialog" style="width:25%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="enterErrorClose"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="ErrorModal"></h4>
+                </div>
+            </div>
+        </div>
+    </div>  
+	

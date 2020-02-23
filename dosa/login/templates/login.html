@@ -1,0 +1,41 @@
+{% extends "global.html" %}
+{% load static %}
+{% block main %}
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" style="width:25%;" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #cadb2b;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">LOGIN</h4>
+                </div>
+                <div class="modal-body row">
+                <form action="/login/Login/" method="POST">{% csrf_token %}
+                	<div class="col-xs-12">
+                        <div class="form-group">
+                            <p>User Name</p>
+                            <input type="email" name="username" class="form-control" style="border:1px solid #c7c7c7;">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <p>Password</p>
+                            <input type="password" name="password" class="form-control" style="border:1px solid #c7c7c7;">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 text-center">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-submit" style="margin-top:10px;">Login</button>
+                        </div>
+                    </div>
+              </form>
+                </div>
+                <div class="modal-footer" style="padding: 0px;background: #b0b0b0;height: 8px;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>

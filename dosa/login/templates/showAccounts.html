@@ -1,0 +1,33 @@
+{% extends "global.html" %}
+{% load static %}
+{% block main %}
+<!DOCTYPE html>
+<html>
+<body>
+{% if request.session.pwd %}
+<div class="col-md-2 uploadimg-position">
+<form  id="frmUploadFile_gallary" method="post" enctype="multipart/form-data" action='/login/addattachment' style="display:none">
+{%csrf_token%}
+<input id="id_image_gallary" type="file" class="" name="uploadFile" style="display:none" >
+<input id="path_gallery" type="text" value="gallery" name="gallery" style="display:none" >
+</form>
+<button class="btn btn-primary" style="margin-top:5px;" id="profile_img_gallery">Upload Photo</button>
+</div>
+{% endif %}
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2>Show Accounts</h2>
+                </div>
+            </div>
+        </div>
+        <embed src="{{path}}" width="800px" height="2100px" />
+            </div>
+        </div>
+        <!-- /#portfolio-single-wrap -->
+    </section>
+    <!--/#portfolio-->
+{% endblock %}
+</body>
+</html>
