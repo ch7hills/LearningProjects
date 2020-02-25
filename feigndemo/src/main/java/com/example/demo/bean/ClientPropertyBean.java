@@ -6,7 +6,14 @@ import org.springframework.stereotype.Component;
 public class ClientPropertyBean {
 	int min;
 	int max;
+	int port;
 	
+	public int getPort() {
+		return port;
+	}
+	public void setPort(int port) {
+		this.port = port;
+	}
 	public ClientPropertyBean(){
 		
 	}
@@ -24,6 +31,7 @@ public class ClientPropertyBean {
 	}
 	@Override
 	public String toString() {
-		return "ClientPropertyBean [min=" + min + ", max=" + max + "]";
+		return "ClientPropertyBean [min=" + min + ", max=" + max + ", port=" + port + "]";
 	}
+	
 }
