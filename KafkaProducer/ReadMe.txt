@@ -26,4 +26,5 @@ kafka-topics.bat --describe --topic test-replication-topic --bootstrap-server lo
 kafka-console-producer.bat --topic test-replication-topic --bootstrap-server localhost:9092
 kafka-console-consumer.bat --topic test-replication-topic --from-beginning --bootstrap-server localhost:9092
 
-
+URL:
+https://coralogix.com/log-analytics-blog/a-complete-introduction-to-apache-kafka/
