@@ -1,4 +1,17 @@
 Notes:
+
+Broker 1 configuration:
+broker.id=0
+port=9092
+host.name=localhost
+log.dirs=/tmp/kafka-logs
+
+Broker 2 configuration:
+broker.id=1
+port=9093
+host.name=localhost
+log.dirs=/tmp/kafka-logs
+
 #Start zookeeper server
 zookeeper-server-start.bat ../../config/zookeeper.properties
 #starting kafka server (broker) 1
@@ -12,3 +25,5 @@ kafka-topics.bat --create     --zookeeper localhost:2181     --replication-facto
 kafka-topics.bat --describe --topic test-replication-topic --bootstrap-server localhost:9092
 kafka-console-producer.bat --topic test-replication-topic --bootstrap-server localhost:9092
 kafka-console-consumer.bat --topic test-replication-topic --from-beginning --bootstrap-server localhost:9092
+
+
