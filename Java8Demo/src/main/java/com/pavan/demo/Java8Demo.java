@@ -79,6 +79,7 @@ public class Java8Demo {
 		String content = new String(Files.readAllBytes(Paths.get("E:\\Practice\\Java8Demo\\Test.txt")));
 		System.out.println(content);
 		List<String> words =  Arrays.asList(content.split(" "));
+		
 		Comparator<String> employeeComparing2 = Comparator.comparing(String::toString);
 		Comparator<String> employeeComparing1 = Comparator.comparing(String::length).reversed();		
 		words.stream().sorted(employeeComparing1.thenComparing(employeeComparing2)).forEach(System.out::println);
