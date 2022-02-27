@@ -1,0 +1,6 @@
+com\asb\example\KafkaConfig.class
+com\asb\example\Student.class
+com\asb\example\StudentResultCalculator.class
+com\asb\example\SpringKafkaSynchronousExampleApplication.class
+com\asb\example\KafkaController.class
+com\asb\example\Result.class
