@@ -8,8 +8,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class ReadFileTest{
 	
@@ -47,9 +49,10 @@ public class ReadFileTest{
 		    System.out.println(content4);
 		}
 		
-		String words = "Lorem ipsum dolor sit amet consectetur adipiscing elit";
+		String words = "Lorem bed red ipsum dolor sit amet consectetur adipiscing elit";
 		String[] wordArr = words.split(" ");
 		List<String> wordList =  Arrays.asList(wordArr);
+		wordList.stream().sorted(Comparator.comparing(String::length).reversed().thenComparing(Comparator.comparing(String::toString))).forEach(System.out::println);
 	}
 
 }

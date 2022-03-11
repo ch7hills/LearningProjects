@@ -3,6 +3,7 @@ package com.pavan.demo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,15 +31,23 @@ public class EmployeeController {
 	}
 
 	@GetMapping("/{empId}")
-	public ResponseEntity<EmployeeEntity> createEmployee(@PathVariable("empId") Long empId){
+	public ResponseEntity<EmployeeEntity> getEmployeeById(@PathVariable("empId") Long empId){
 		
 		EmployeeEntity enitityFromDb = empService.getEmployeeById(empId);
 		
 		return new ResponseEntity(enitityFromDb,HttpStatus.ACCEPTED);		
 	}
 	
+	@GetMapping("/rest/getAll")
+	public ResponseEntity<EmployeeEntity> getRestEmployeeById(){
+		
+		ResponseEntity<List> enitityFromDb = empService.getList();
+		
+		return new ResponseEntity(enitityFromDb,HttpStatus.ACCEPTED);		
+	}
+	
 	@GetMapping("/getAll")
-	public <T> ResponseEntity<List<T>> getAllEmployee(){		
+	public <T> ResponseEntity<List<T>> getAllEmployee(){
 		return new ResponseEntity(empService.getAllEmployee(),HttpStatus.ACCEPTED);
 	}
 }

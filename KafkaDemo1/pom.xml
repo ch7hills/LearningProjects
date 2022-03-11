@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pavan</groupId>
-	<artifactId>JavaDemo</artifactId>
+	<artifactId>KafkaDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JavaDemo1</name>
-	<description>Pavan Demo project for Spring Boot</description>
+	<name>KafkaDemo1</name>
+	<description>Kafka Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

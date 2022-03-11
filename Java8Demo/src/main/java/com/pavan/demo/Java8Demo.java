@@ -5,7 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
@@ -83,7 +85,18 @@ public class Java8Demo {
 		Comparator<String> employeeComparing2 = Comparator.comparing(String::toString);
 		Comparator<String> employeeComparing1 = Comparator.comparing(String::length).reversed();		
 		words.stream().sorted(employeeComparing1.thenComparing(employeeComparing2)).forEach(System.out::println);
-
+		HashMap<Character,Integer> countMap = new HashMap<>();
+		char[] chars = content.toCharArray();
+		for(int i=0;i<chars.length;i++) {
+			if(countMap.containsKey(chars[i])) {
+				countMap.put(chars[i],countMap.get(chars[i])+1);
+			}else{
+				countMap.put(chars[i],1);
+			}
+		}
+		for(Entry<Character, Integer> each : countMap.entrySet()) {
+			System.out.println("Charecter=>"+each.getKey()+" Count=>"+each.getValue());
+		}
 	}
 
 }

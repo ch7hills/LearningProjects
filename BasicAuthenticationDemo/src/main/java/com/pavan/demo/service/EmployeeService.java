@@ -1,9 +1,11 @@
 package com.pavan.demo.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -34,7 +36,10 @@ public class EmployeeService {
 	}
 	
 	public ResponseEntity<List> getList(){
-		return restTemplate.getForEntity("http://localhost:2022/employee/getEmployeeById/1", List.class);
+		HttpHeaders hdr= new HttpHeaders();
+		hdr.set("Authorization", "Basic N2hpbGxzOjdoaWxscw==");
+		HttpEntity<Void> requestEntity = new HttpEntity<>(hdr);
+		return restTemplate.exchange("http://localhost:2022/employee/getAll", HttpMethod.GET, requestEntity, List.class);
 	}
 	
 }
